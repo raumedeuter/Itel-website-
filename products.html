@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Sunce-iTel Energy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="asset/itel-logo.png" type="image/png" sizes="32x32">
+    <link rel="shortcut icon" href="asset/itel-logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="asset/itel-logo.png">
+    <!-- Iconify icons -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="asset/itel-logo.png" alt="Sunce-iTel Energy Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#brand">Brand</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Business Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="products-hero">
+            <h1>Our Product Range</h1>
+            <p>Comprehensive energy storage solutions designed for every need—from residential systems to enterprise-grade installations. Power your world with Sunce-iTel Energy.</p>
+        </section>
+
+        <!-- Category Filter & Products -->
+        <section style="padding: 60px 2rem; background: #f8f9fa;">
+            <h2 style="text-align: center; color: #d32f2f; margin-bottom: 3rem; font-size: 2.2rem;">Browse by Category</h2>
+            <div class="category-filter">
+                <button class="filter-btn active" onclick="filterProducts('all')">All Products</button>
+                <button class="filter-btn" onclick="filterProducts('inverter')">Inverters</button>
+                <button class="filter-btn" onclick="filterProducts('battery')">Batteries</button>
+                <button class="filter-btn" onclick="filterProducts('allinone')">All-in-One</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Multiple Inverter Series (IP31) -->
+                <div class="product-card" data-category="inverter">
+                    <div class="product-image">
+                        <img src="https://energy.itel-life.com/traness-web/assets/pc-01-multiple-inverter-series-4uVr4Cbx.webp" alt="IP31 Series">
+                        <span class="product-badge">Best Value</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Inverter Series</div>
+                        <div class="product-name">IP31 Series</div>
+                        <div class="product-description">Hybrid inverter designed for maximum flexibility and performance in residential and small commercial applications.</div>
+                        <!-- <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Power Range:</span>
+                                <span class="spec-value">3kW - 10kW</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Efficiency:</span>
+                                <span class="spec-value">97.5%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Warranty:</span>
+                                <span class="spec-value">2 Years</span>
+                            </div>
+                        </div> -->
+                        <div class="product-buttons">
+                            <!-- <button class="product-btn product-btn-primary" onclick="alert('Request quote for IP31 Series')">Get Quote</button> -->
+                            <button class="product-btn product-btn-secondary" onclick="alert('Detailed specs')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Multiple Inverter Series (IP54) -->
+                <div class="product-card" data-category="inverter">
+                    <div class="product-image">
+                        <img src="https://energy.itel-life.com/traness-web/assets/pc-IP54-home_-_______-D6ezKqgi.webp" alt="IP54 Series">
+                        <span class="product-badge new">New</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Inverter Series</div>
+                        <div class="product-name">IP54 Series</div>
+                        <div class="product-description">Advanced on-grid and off-grid hybrid inverter with superior protection and reliability for demanding environments.</div>
+                        <!-- <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Power Range:</span>
+                                <span class="spec-value">5kW - 15kW</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Efficiency:</span>
+                                <span class="spec-value">98.1%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Warranty:</span>
+                                <span class="spec-value">3 Years</span>
+                            </div>
+                        </div> -->
+                        <div class="product-buttons">
+                            <!-- <button class="product-btn product-btn-primary" onclick="alert('Request quote for IP54 Series')">Get Quote</button> -->
+                            <button class="product-btn product-btn-secondary" onclick="alert('Detailed specs')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Multiple Inverter Series (IP66) -->
+                <div class="product-card" data-category="inverter">
+                    <div class="product-image">
+                        <img src="https://energy.itel-life.com/traness-web/assets/m-06-Multiple_Inverter_Series@2x-6WH3hY-Y.webp" alt="IP66 Series">
+                        <span class="product-badge hot">Hot</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Inverter Series</div>
+                        <div class="product-name">IP66 Series</div>
+                        <div class="product-description">Premium-grade inverter for commercial and industrial applications with complete weather protection.</div>
+                        <!-- <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Power Range:</span>
+                                <span class="spec-value">10kW - 30kW</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Efficiency:</span>
+                                <span class="spec-value">98.5%</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Warranty:</span>
+                                <span class="spec-value">5 Years</span>
+                            </div>
+                        </div> -->
+                        <div class="product-buttons">
+                            <!-- <button class="product-btn product-btn-primary" onclick="alert('Request quote for IP66 Series')">Get Quote</button> -->
+                            <button class="product-btn product-btn-secondary" onclick="alert('Detailed specs')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Battery Series (24V) -->
+                <div class="product-card" data-category="battery">
+                    <div class="product-image">
+                        <img src="https://energy.itel-life.com/traness-web/assets/pc-04-Battery__Series-Dj1lOQT4.webp" alt="24V Battery">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Battery Series</div>
+                        <div class="product-name">24V Lithium</div>
+                        <div class="product-description">Compact and lightweight lithium battery perfect for residential backup systems and portable applications.</div>
+                        <!-- <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Capacity:</span>
+                                <span class="spec-value">5kWh - 20kWh</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Cycle Life:</span>
+                                <span class="spec-value">6000+ Cycles</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Warranty:</span>
+                                <span class="spec-value">5 Years</span>
+                            </div>
+                        </div> -->
+                        <div class="product-buttons">
+                            <!-- <button class="product-btn product-btn-primary" onclick="alert('Request quote for 24V Battery')">Get Quote</button> -->
+                            <button class="product-btn product-btn-secondary" onclick="alert('Detailed specs')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Battery Series (48V) -->
+                <div class="product-card" data-category="battery">
+                    <div class="product-image">
+                        <img src="https://energy.itel-life.com/traness-web/assets/m-06-Battery__Series@2x-CraKyRKH.webp" alt="48V Battery">
+                        <span class="product-badge new">New</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Battery Series</div>
+                        <div class="product-name">48V Lithium</div>
+                        <div class="product-description">High-capacity industrial-grade lithium battery for scalable energy storage in large installations.</div>
+                        <!-- <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Capacity:</span>
+                                <span class="spec-value">10kWh - 50kWh</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Cycle Life:</span>
+                                <span class="spec-value">8000+ Cycles</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Warranty:</span>
+                                <span class="spec-value">5 Years</span>
+                            </div>
+                        </div> -->
+                        <div class="product-buttons">
+                            <!-- <button class="product-btn product-btn-primary" onclick="alert('Request quote for 48V Battery')">Get Quote</button> -->
+                            <button class="product-btn product-btn-secondary" onclick="alert('Detailed specs')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- All-in-One IESS-3K680N -->
+                <div class="product-card" data-category="allinone">
+                    <div class="product-image">
+                        <img src="https://energy.itel-life.com/traness-web/assets/IESS-06K13D-B21gREE0.webp" alt="IESS-3K680N">
+                        <span class="product-badge hot">Hot</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">All-in-One</div>
+                        <div class="product-name">IESS-3K680N</div>
+                        <div class="product-description">Complete integrated system combining inverter and battery in one compact unit for easy installation and setup.</div>
+                        <!-- <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Power:</span>
+                                <span class="spec-value">3kW / 6.8kWh</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Installation:</span>
+                                <span class="spec-value">Plug & Play</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Warranty:</span>
+                                <span class="spec-value">5 Years</span>
+                            </div>
+                        </div> -->
+                        <div class="product-buttons">
+                            <!-- <button class="product-btn product-btn-primary" onclick="alert('Request quote for IESS-3K680N')">Get Quote</button> -->
+                            <button class="product-btn product-btn-secondary" onclick="alert('Detailed specs')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- All-in-One IPL-51100 -->
+                <div class="product-card" data-category="allinone">
+                    <div class="product-image">
+                        <img src="https://energy.itel-life.com/traness-web/assets/v48-IPL-51100-yn-7d-P9.webp" alt="IPL-51100">
+                        <span class="product-badge new">New</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">All-in-One</div>
+                        <div class="product-name">IPL-51100</div>
+                        <div class="product-description">Next-generation all-in-one system with smart monitoring and advanced battery management technology.</div>
+                        <!-- <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Power:</span>
+                                <span class="spec-value">5kW / 11kWh</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Installation:</span>
+                                <span class="spec-value">Wall-Mount</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Warranty:</span>
+                                <span class="spec-value">5 Years</span>
+                            </div>
+                        </div> -->
+                        <div class="product-buttons">
+                            <!-- <button class="product-btn product-btn-primary" onclick="alert('Request quote for IPL-51100')">Get Quote</button> -->
+                            <button class="product-btn product-btn-secondary" onclick="alert('Detailed specs')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features Section -->
+        <section class="product-features">
+            <h2>Why Choose Sunce-iTel Energy Products?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><span class="iconify animated-icon" data-icon="mdi:flash" data-inline="false" data-width="1em" data-height="1em"></span></div>
+                    <h3>High Efficiency</h3>
+                    <p>Industry-leading conversion efficiency up to 98.5%, maximizing your energy savings and ROI.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><span class="iconify animated-icon" data-icon="mdi:shield-check" data-inline="false" data-width="1em" data-height="1em"></span></div>
+                    <h3>Advanced Protection</h3>
+                    <p>Multi-layer safety systems with IP54/IP66 weather protection for outdoor installations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><span class="iconify animated-icon" data-icon="mdi:battery" data-inline="false" data-width="1em" data-height="1em"></span></div>
+                    <h3>Long Lifespan</h3>
+                    <p>LiFePO4 batteries with 6000+ cycle life and 5-year comprehensive warranties.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><span class="iconify animated-icon" data-icon="mdi:cellphone" data-inline="false" data-width="1em" data-height="1em"></span></div>
+                    <h3>Smart Monitoring</h3>
+                    <p>Real-time system monitoring via mobile app with intelligent energy management.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><span class="iconify animated-icon" data-icon="mdi:earth" data-inline="false" data-width="1em" data-height="1em"></span></div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Sustainable energy solutions that reduce carbon footprint and environmental impact.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><span class="iconify animated-icon" data-icon="mdi:rocket" data-inline="false" data-width="1em" data-height="1em"></span></div>
+                    <h3>Easy Installation</h3>
+                    <p>Modular design and plug-and-play systems minimize installation time and complexity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="products-cta">
+            <h2>Ready to Power Your Energy Independence?</h2>
+            <p>Our expert team is ready to help you find the perfect energy solution tailored to your specific needs and budget.</p>
+            <div class="cta-buttons">
+                <button class="cta-btn cta-btn-primary" onclick="alert('Request sent')">Get a Free Consultation</button>
+                <button class="cta-btn cta-btn-secondary" onclick="alert('Comparison view')">Compare Products</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- About Section -->
+                <div class="footer-section">
+                    <h3>About Sunce-iTel Energy</h3>
+                    <p>Leading the global transition to clean, sustainable energy with innovative technology and expert solutions.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><span class="iconify" data-icon="mdi:facebook" data-inline="false" data-width="1.2em" data-height="1.2em"></span></a>
+                        <a href="#" title="Twitter">𝕏</a>
+                        <a href="#" title="LinkedIn"><span class="iconify" data-icon="mdi:linkedin" data-inline="false" data-width="1.2em" data-height="1.2em"></span></a>
+                        <a href="#" title="Instagram"><span class="iconify" data-icon="mdi:instagram" data-inline="false" data-width="1.2em" data-height="1.2em"></span></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#brand">Brand Values</a></li>
+                        <li><a href="products.html">Products</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-info">
+                        <span class="contact-info-icon"><span class="iconify animated-icon" data-icon="mdi:email" data-inline="false" data-width="1em" data-height="1em"></span></span>
+                        <span>contact@sunce-itelenergy.com</span>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-info-icon"><span class="iconify animated-icon" data-icon="mdi:phone" data-inline="false" data-width="1em" data-height="1em"></span></span>
+                        <span>(+234)81-01438-458</span>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-info-icon"><span class="iconify animated-icon" data-icon="mdi:earth" data-inline="false" data-width="1em" data-height="1em"></span></span>
+                        <span>Global Operations</span>
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get the latest news and updates.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button onclick="alert('Thank you for subscribing!')">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sunce-iTel Energy. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
